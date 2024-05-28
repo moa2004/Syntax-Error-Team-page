@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(SET.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #2e3238;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-weight: 300;
+}
+
+/* Main content */
+main {
+    flex: 1;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.link-card {
+    background-color: #272727;
+    border: 1px solid #191717;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #e0e0e0;
+    flex: 1 1 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+/* }
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 350px;
+} */
+span{
+color: yellow;
+}
+.youtube{
+color: rgb(245, 101, 101);
+}
+.team{
+    color: #000000;
+}
